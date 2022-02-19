@@ -117,6 +117,25 @@ header {
     z-index: 2;
 }
 
+.navbar-mobile ul {
+    list-style: none;
+}
+
+.navbar-mobile ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: var(--large);
+    color: var(--paleta2-verde-oscuro);
+    border: 0.1rem solid var(--paleta2-verde);
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+}
+
+.navbar-mobile ul li a:hover {
+    color: var(--paleta2-verde-palido);
+    border: 0.1rem solid var(--paleta2-verde-palido);
+}
+
 .navbar {
     background-color: var(--paleta2-verde);
     width: 100%;
