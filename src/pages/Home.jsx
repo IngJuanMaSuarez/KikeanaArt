@@ -16,6 +16,12 @@ import icon_tiktok from '../assets/icons/icon_tiktok.svg';
 import icon_whatsapp from '../assets/icons/icon_whatsapp.svg';
 import icon_messenger from '../assets/icons/icon_messenger.svg';
 
+import icon_home from '../assets/icons/icon_home.svg';
+import icon_about_us from '../assets/icons/icon_about_us.svg';
+import icon_news from '../assets/icons/icon_news.svg';
+import icon_amigurumis from '../assets/icons/icon_amigurumis.svg';
+import icon_pattern from '../assets/icons/icon_pattern.svg';
+
 const Home = () => {
   return (
     <div>
@@ -24,26 +30,31 @@ const Home = () => {
             
             <div className = "header-container">
 
-                <label for="toggle-1">
+                <label for = "toggle">
                     <img src = { icon_menu } alt = "Icono de Menu Desplegable" />
                 </label>
-                <input className="checkbox" type="checkbox" id="toggle-1"/>
+                <input className = "checkbox" type = "checkbox" id = "toggle"/>
 
-                <nav className='navbar-mobile'>
+                <nav className = 'navbar-mobile'>
                     <ul>
                         <li>
+                            <img src = { icon_home } alt = "Icono para ir al inicio" />
                             <a href = "">Inicio</a>
                         </li>
                         <li>
+                            <img src = { icon_news } alt = "Icono para ir a la sección de las noticias" />
                             <a href = "">Noticias Crocheteras</a>
                         </li>
                         <li>
+                            <img src = { icon_amigurumis } alt = "Icono para ir a la sección de nuestros amigurumis" />
                             <a href = "">Nuestros Amigurumis</a>
                         </li>
                         <li>
+                            <img src = { icon_pattern } alt = "Icono para ir a la sección de patrones gratis" />
                             <a href = "">Patrones Gratis</a>
                         </li>
                         <li>
+                            <img src = { icon_about_us } alt = "Icono para ir a la sección sobre nosotros" />
                             <a href = "">Sobre Nosotros</a>
                         </li>
                     </ul>
@@ -92,7 +103,7 @@ const Home = () => {
         <nav className = "navbar">
             <ul>
                 <li>
-                    <a href = "">Inicio</a>
+                    <a href = "/">Inicio</a>
                 </li>
                 <li>
                     <a href = "">Noticias Crocheteras</a>

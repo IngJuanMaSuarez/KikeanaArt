@@ -113,27 +113,46 @@ header {
     display: none;
     position: absolute;
     top: 7.5rem; 
-    background-color: var(--paleta2-verde); 
+    background-color: white;
     z-index: 2;
+    border-radius: 1rem;
+    border: 0.1rem solid #dfe1e5;
 }
 
 .navbar-mobile ul {
     list-style: none;
 }
 
+.navbar-mobile ul li {
+    border-bottom: 0.1rem solid var(--paleta2-verde);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navbar-mobile ul li:nth-child(5) {
+    border-bottom: none;
+}
+
+.navbar-mobile ul li:hover {
+    border: 0.1rem solid var(--paleta2-verde-palido);
+}
+
 .navbar-mobile ul li a {
     display: inline-block;
     text-decoration: none;
     font-size: var(--large);
-    color: var(--paleta2-verde-oscuro);
-    border: 0.1rem solid var(--paleta2-verde);
+    color: black;
     padding: 1.5rem;
-    border-radius: 0.8rem;
 }
 
 .navbar-mobile ul li a:hover {
     color: var(--paleta2-verde-palido);
-    border: 0.1rem solid var(--paleta2-verde-palido);
+}
+
+.navbar-mobile ul li img {
+    height: 2rem;
+    padding: 0 1rem;
 }
 
 .navbar {
