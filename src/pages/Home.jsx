@@ -24,7 +24,30 @@ const Home = () => {
             
             <div className = "header-container">
 
-                <img src = { icon_menu } alt = "Icono de Menu Desplegable" className = "icon-menu" />
+                <label for="toggle-1">
+                    <img src = { icon_menu } alt = "Icono de Menu Desplegable" />
+                </label>
+                <input className="checkbox" type="checkbox" id="toggle-1"/>
+
+                <nav className='navbar-mobile'>
+                    <ul>
+                        <li>
+                            <a href = "">Inicio</a>
+                        </li>
+                        <li>
+                            <a href = "">Noticias Crocheteras</a>
+                        </li>
+                        <li>
+                            <a href = "">Nuestros Amigurumis</a>
+                        </li>
+                        <li>
+                            <a href = "">Patrones Gratis</a>
+                        </li>
+                        <li>
+                            <a href = "">Sobre Nosotros</a>
+                        </li>
+                    </ul>
+                </nav>
                 
                 <picture className = "logo">
                     <source media = "(min-width:800px)" srcset = { logo1200 } />

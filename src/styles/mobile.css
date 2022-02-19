@@ -47,6 +47,21 @@ header {
     justify-content: space-between;
 }
 
+.header-container label {
+    float: left; 
+    display: inline-block; 
+}
+
+.header-container .checkbox {
+    position: absolute; 
+    top: -9999px; 
+    left: -9999px; 
+}
+
+.checkbox:checked ~ .navbar-mobile {
+    display: block;
+}
+
 .header-container .logo {
     width: auto;
     align-items: center;
@@ -89,9 +104,17 @@ header {
     height: 1.8rem;
 }
 
-.social-media-container {
+.header-container .main-input .social-media-container {
     display: flex;
     justify-content: space-evenly;
+}
+
+.navbar-mobile {
+    display: none;
+    position: absolute;
+    top: 7.5rem; 
+    background-color: var(--paleta2-verde); 
+    z-index: 2;
 }
 
 .navbar {
