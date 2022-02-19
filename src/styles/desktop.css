@@ -1,0 +1,43 @@
+@media (min-width: 800px){
+    main, aside, footer {
+        display: flex;
+    }
+    
+    header, .navbar, .banner, main, footer {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    header {
+        left: 50%;
+        margin-left: -600px;
+    }
+    
+    .navbar {
+        margin-top: 10rem;
+    }
+    
+    .banner {
+        height: 50rem;
+    }
+    
+    .banner img {
+        height: 50rem;
+    }
+    
+    .main-container {
+        width: 50%;
+    }
+    
+    aside {
+        width: 50%;
+    }
+    
+    .footer-left {
+        width: 50%;
+    }
+    
+    .footer-right {
+        width: 50%;
+    }
+}

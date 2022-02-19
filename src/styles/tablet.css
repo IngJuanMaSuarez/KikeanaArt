@@ -1,0 +1,18 @@
+@media (min-width: 600px){
+    .icon-menu {
+        display: none;
+    }
+    
+    .navbar {
+        display: block;
+    }
+    
+    .banner {
+        margin-top: 0;
+        height: 35rem;
+    }
+    
+    .banner img {
+        height: 35rem;
+    }
+}
