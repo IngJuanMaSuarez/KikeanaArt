@@ -1,10 +1,35 @@
 @media (min-width: 600px){
+
+    .header-message {
+        height: 2.5rem;
+        font-size: var(--medium);
+    }
+
+    .header-container {
+        height: 10rem;
+    }
+
     .header-container label {
         display: none;
+    }
+
+    .header-container .logo img {
+        width: 20rem;
+    }
+
+    .header-container .main-input .main-search-container {
+        width: 21rem;
+        margin-bottom: 1rem;
+    }
+    
+    .header-container .main-input .main-search-container input {
+        width: 15rem;
+        height: 4rem;
     }
     
     .navbar {
         display: block;
+        margin-top: 12.5rem;
     }
     
     .banner {

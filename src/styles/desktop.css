@@ -12,9 +12,27 @@
         left: 50%;
         margin-left: -600px;
     }
+
+    .header-container {
+        height: 12rem;
+    }
+
+    .header-container .logo img {
+        width: 25rem;
+    }
+
+    .header-container .main-input .main-search-container {
+        width: 30rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .header-container .main-input .main-search-container input {
+        width: 23rem;
+        height: 5rem;
+    }
     
     .navbar {
-        margin-top: 10rem;
+        margin-top: 14.5rem;
     }
     
     .banner {

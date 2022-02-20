@@ -125,9 +125,6 @@ header {
 
 .navbar-mobile ul li {
     border-bottom: 0.1rem solid var(--paleta2-verde);
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
 }
 
 .navbar-mobile ul li:nth-child(5) {
@@ -135,7 +132,7 @@ header {
 }
 
 .navbar-mobile ul li:hover {
-    border: 0.1rem solid var(--paleta2-verde-palido);
+    border: 0.1rem solid var(--paleta2-verde-oscuro);
 }
 
 .navbar-mobile ul li a {
@@ -147,43 +144,53 @@ header {
 }
 
 .navbar-mobile ul li a:hover {
-    color: var(--paleta2-verde-palido);
+    color: var(--paleta2-verde-oscuro);
 }
 
 .navbar-mobile ul li img {
     height: 2rem;
-    padding: 0 1rem;
+    padding: 0 1rem 0 0;
 }
 
 .navbar {
-    background-color: var(--paleta2-verde);
+    background-color: white;
     width: 100%;
     height: auto;
     display: none;
     margin-top: 10rem;
+    border: 0.1rem solid #dfe1e5;
 }
 
 .navbar ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    margin: 0 3%;
     align-items: center;
+}
+
+.navbar ul li {
+    border-left: 0.1rem solid var(--paleta2-verde);
+}
+
+.navbar ul li:nth-child(1) {
+    border-left: none;
 }
 
 .navbar ul li a {
     display: inline-block;
     text-decoration: none;
     font-size: var(--medium);
-    color: var(--paleta2-verde-oscuro);
-    border: 0.1rem solid var(--paleta2-verde);
+    color: black;
     padding: 1.5rem;
-    border-radius: 0.8rem;
 }
 
 .navbar ul li a:hover {
-    color: var(--paleta2-verde-palido);
-    border: 0.1rem solid var(--paleta2-verde-palido);
+    color: var(--paleta2-verde-oscuro);
+}
+
+.navbar ul li img {
+    height: 2rem;
+    padding: 0 1rem 0 0;
 }
 
 .banner {

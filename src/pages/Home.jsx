@@ -38,24 +38,29 @@ const Home = () => {
                 <nav className = 'navbar-mobile'>
                     <ul>
                         <li>
-                            <img src = { icon_home } alt = "Icono para ir al inicio" />
-                            <a href = "">Inicio</a>
+                            <a href = "">
+                                <img src = { icon_home } alt = "Icono para ir al inicio" />Inicio
+                            </a>
                         </li>
                         <li>
-                            <img src = { icon_news } alt = "Icono para ir a la sección de las noticias" />
-                            <a href = "">Noticias Crocheteras</a>
+                            <a href = "">
+                                <img src = { icon_news } alt = "Icono para ir a la sección de las noticias" />Noticias Crocheteras
+                            </a>
                         </li>
                         <li>
-                            <img src = { icon_amigurumis } alt = "Icono para ir a la sección de nuestros amigurumis" />
-                            <a href = "">Nuestros Amigurumis</a>
+                            <a href = "">
+                                <img src = { icon_amigurumis } alt = "Icono para ir a la sección de nuestros amigurumis" />Nuestros Amigurumis
+                            </a>
                         </li>
                         <li>
-                            <img src = { icon_pattern } alt = "Icono para ir a la sección de patrones gratis" />
-                            <a href = "">Patrones Gratis</a>
+                            <a href = "">
+                                <img src = { icon_pattern } alt = "Icono para ir a la sección de patrones gratis" />Patrones Gratis
+                            </a>
                         </li>
                         <li>
-                            <img src = { icon_about_us } alt = "Icono para ir a la sección sobre nosotros" />
-                            <a href = "">Sobre Nosotros</a>
+                            <a href = "">
+                                <img src = { icon_about_us } alt = "Icono para ir a la sección sobre nosotros" />Sobre Nosotros
+                            </a>
                         </li>
                     </ul>
                 </nav>
@@ -103,19 +108,29 @@ const Home = () => {
         <nav className = "navbar">
             <ul>
                 <li>
-                    <a href = "/">Inicio</a>
+                    <a href = "">
+                        <img src = { icon_home } alt = "Icono para ir al inicio" />Inicio
+                    </a>
                 </li>
                 <li>
-                    <a href = "">Noticias Crocheteras</a>
+                    <a href = "">
+                        <img src = { icon_news } alt = "Icono para ir a la sección de las noticias" />Noticias Crocheteras
+                    </a>
                 </li>
                 <li>
-                    <a href = "">Nuestros Amigurumis</a>
+                    <a href = "">
+                        <img src = { icon_amigurumis } alt = "Icono para ir a la sección de nuestros amigurumis" />Nuestros Amigurumis
+                    </a>
                 </li>
                 <li>
-                    <a href = "">Patrones Gratis</a>
+                    <a href = "">
+                        <img src = { icon_pattern } alt = "Icono para ir a la sección de patrones gratis" />Patrones Gratis
+                    </a>
                 </li>
                 <li>
-                    <a href = "">Sobre Nosotros</a>
+                    <a href = "">
+                        <img src = { icon_about_us } alt = "Icono para ir a la sección sobre nosotros" />Sobre Nosotros
+                    </a>
                 </li>
             </ul>
         </nav>
