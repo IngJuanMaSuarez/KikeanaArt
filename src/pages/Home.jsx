@@ -144,7 +144,28 @@ const Home = () => {
         </div>
 
         <main>
-            <div className = "main-container">Contenedor Principal</div>
+            <div className = "main-container">
+                <div className="cards-container">
+                    <div className="amigurumi-card">
+                        <img src="https://i.pinimg.com/564x/9f/d7/60/9fd7604c25f8d044b2d9a1bf55fa0d53.jpg" alt="" />
+                    </div>
+                    <div className="amigurumi-card">
+                        <img src="https://i.pinimg.com/564x/98/76/51/987651318c5f0b0532a3cd7e225cc9c6.jpg" alt="" />
+                    </div>
+                    <div className="amigurumi-card">
+                        <img src="https://i.pinimg.com/564x/2c/91/74/2c917477657b163df7e2c8820d662111.jpg" alt="" />
+                    </div>
+                    <div className="amigurumi-card">
+                        <img src="https://i.pinimg.com/564x/84/d9/b5/84d9b5af95d916752ca64511b84eb874.jpg" alt="" />
+                    </div>
+                    <div className="amigurumi-card">
+                        <img src="https://i.pinimg.com/564x/04/41/0f/04410fe61ece3bec2e44958ffaf01828.jpg" alt="" />
+                    </div>
+                    <div className="amigurumi-card">
+                        <img src="https://i.pinimg.com/564x/c6/5d/b2/c65db27d318fbabc5d1e0ed40d5d41a6.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
             <aside>
                 <div className = "social-media">Redes Sociales</div>
                 <div className = "aux">Auxiliar</div>
