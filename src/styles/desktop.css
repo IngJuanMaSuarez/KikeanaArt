@@ -1,5 +1,5 @@
 @media (min-width: 800px){
-    main, aside, footer {
+    main, aside {
         display: flex;
     }
     
@@ -52,14 +52,6 @@
     }
     
     aside {
-        width: 50%;
-    }
-    
-    .footer-left {
-        width: 50%;
-    }
-    
-    .footer-right {
         width: 50%;
     }
 }

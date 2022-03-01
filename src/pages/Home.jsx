@@ -171,9 +171,12 @@ const Home = () => {
                 <div className = "aux">Auxiliar</div>
             </aside>
         </main>
+
         <footer>
             <div className = "footer-left">Footer Izquierdo</div>
-            <div className = "footer-right">Footer Derecho</div>
+            <div className = "footer-right">
+                <p>Kikeana - Amigurumi - Crochet - Colombia</p>
+            </div>
         </footer>
     </div>
   )
