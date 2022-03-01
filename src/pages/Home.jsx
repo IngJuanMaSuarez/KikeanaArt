@@ -22,6 +22,9 @@ import icon_news from '../assets/icons/icon_news.svg';
 import icon_amigurumis from '../assets/icons/icon_amigurumis.svg';
 import icon_pattern from '../assets/icons/icon_pattern.svg';
 
+import icon_like from '../assets/icons/icon_like.png';
+import icon_newsletter from '../assets/icons/icon_newsletter.png';
+
 const Home = () => {
   return (
     <div>
@@ -173,7 +176,22 @@ const Home = () => {
         </main>
 
         <footer>
-            <div className = "footer-left">Footer Izquierdo</div>
+            <div className = "footer-left">
+                <div>
+                    <img src= { icon_newsletter } alt="" />
+                    <div className='contact-left'>
+                        <a href="mailto:KikeanaArt@gmail.com" target="_blank">Contáctanos</a>
+                        <p>Envíanos un mail. Recibimos comentarios, sugerencias o preguntas... ¡lo que quieras!</p>
+                    </div>
+                </div>
+                <div>
+                    <img src= { icon_like } alt="" />
+                    <div className='contact-right'>
+                        <a href="https://instabio.cc/KikeanaArt" target="_blank">Síguenos</a>
+                        <p>No olvides apoyarnos con un ❤️ y seguirnos en nuestras redes sociales.</p>
+                    </div>
+                </div>
+            </div>
             <div className = "footer-right">
                 <p>Kikeana - Amigurumi - Crochet - Colombia</p>
             </div>

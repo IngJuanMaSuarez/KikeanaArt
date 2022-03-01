@@ -236,9 +236,33 @@ header {
 }
 
 .footer-left {
-    background-color: antiquewhite;
-    width: 100%;
-    height: 35rem;
+    padding: 0 50px 40px;
+}
+
+.footer-left {
+    background-color: #e6e9ed;
+    text-align: center;
+}
+
+.footer-left div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+
+.footer-left div a {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.footer-left .contact-left, .contact-right {
+    text-align: initial;
+    margin-top: 85px;
+    margin-left: 20px;
+}
+
+.footer-left img {
+    width: 100px;
 }
 
 .footer-right {
