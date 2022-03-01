@@ -30,6 +30,10 @@
         width: 23rem;
         height: 5rem;
     }
+
+    .header-container .main-input .social-media-container a img {
+        height: 2rem;
+    }
     
     .navbar {
         margin-top: 14.5rem;

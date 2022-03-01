@@ -26,6 +26,10 @@
         width: 15rem;
         height: 4rem;
     }
+
+    .header-container .main-input .social-media-container a img {
+        height: 1.8rem;
+    }
     
     .navbar {
         display: block;
