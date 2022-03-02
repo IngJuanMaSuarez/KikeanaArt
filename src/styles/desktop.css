@@ -54,4 +54,8 @@
     aside {
         width: 50%;
     }
+
+    .footer-up .contact-container .contact-information p {
+        font-size: var(--medium);
+    }
 }

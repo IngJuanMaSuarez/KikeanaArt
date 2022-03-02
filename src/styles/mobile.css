@@ -249,7 +249,7 @@ header {
 }
 
 .footer-up .contact-container .contact-information {
-    padding: 1rem;
+    padding: 2rem 1rem;
     width: 70%;
 }
 
@@ -257,17 +257,13 @@ header {
     font-size: var(--small);
 }
 
-.footer-up .contact-container .contact-information a {
+.footer-up .contact-container a {
     text-decoration: none;
     color: black;
     font-size: var(--small);
 }
 
-.footer-up .contact-container .contact-information a:hover {
-    color: var(--paleta2-verde-oscuro);
-}
-
-.footer-up img {
+.footer-up .contact-container a img {
     width: 5rem;
 }
 

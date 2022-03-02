@@ -178,16 +178,18 @@ const Home = () => {
         <footer>
             <div className = "footer-up">
                 <div className='contact-container'>
-                    <img src= { icon_newsletter } alt="" />
+                    <a href="mailto:KikeanaArt@gmail.com" target="_blank">
+                        <img src= { icon_newsletter } alt="" />
+                    </a>
                     <div className='contact-information'>
-                        <a href="mailto:KikeanaArt@gmail.com" target="_blank">Contáctanos</a>
                         <p>Envíanos un mail 💌. Recibimos comentarios, sugerencias o preguntas ¡lo que quieras!</p>
                     </div>
                 </div>
                 <div className='contact-container'>
-                    <img src= { icon_like } alt="" />
+                    <a href="https://instabio.cc/KikeanaArt" target="_blank">
+                        <img src= { icon_like } alt="" />
+                    </a>
                     <div className='contact-information'>
-                        <a href="https://instabio.cc/KikeanaArt" target="_blank">Síguenos</a>
                         <p>Si te gusta lo que hacemos apóyanos con un ❤️ y síguenos en nuestras redes sociales.</p>
                     </div>
                 </div>
