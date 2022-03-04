@@ -269,7 +269,7 @@ header {
 
 .footer-down {
     background-color: #22272d;
-    height: 8rem;
+    height: 10rem;
     border-top: 3.5rem solid var(--paleta2-verde-oscuro);
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -284,11 +284,14 @@ header {
 }
 
 .footer-down .social-media-footer-container a {
-    padding: 0.5rem 0.5rem 0 0.5rem;
+    padding: 1rem 0.5rem 0 0.5rem;
 }
 
 .footer-down .social-media-footer-container a img {
-    height: 1.5rem;
+    height: 2rem;
+    padding: 0.3rem;
+    background-color: #68717b;
+    border-radius: 50%;
 }
 
 .footer-down p {
