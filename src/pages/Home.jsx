@@ -25,6 +25,14 @@ import icon_pattern from '../assets/icons/icon_pattern.svg';
 import icon_like from '../assets/icons/icon_like.png';
 import icon_newsletter from '../assets/icons/icon_newsletter.png';
 
+import icon_instagram_footer from '../assets/icons/icon_instagram_footer.svg';
+import icon_facebook_footer from '../assets/icons/icon_facebook_footer.svg';
+import icon_twitter_footer from '../assets/icons/icon_twitter_footer.svg';
+import icon_pinterest_footer from '../assets/icons/icon_pinterest_footer.svg';
+import icon_tiktok_footer from '../assets/icons/icon_tiktok_footer.svg';
+import icon_whatsapp_footer from '../assets/icons/icon_whatsapp_footer.svg';
+import icon_messenger_footer from '../assets/icons/icon_messenger_footer.svg';
+
 const Home = () => {
   return (
     <div>
@@ -195,6 +203,29 @@ const Home = () => {
                 </div>
             </div>
             <div className = "footer-down">
+                <div className = "social-media-footer-container">
+                    <a href = "https://www.instagram.com/KikeanaArt" target="_blank">
+                        <img src = { icon_instagram_footer } alt = "Icono de nuestro Instagram" />
+                    </a>
+                    <a href = "https://www.facebook.com/KikeanaArt" target="_blank">
+                        <img src = { icon_facebook_footer } alt = "Icono de nuestro Facebook" />
+                    </a>
+                    <a href = "https://twitter.com/KikeanaArt" target="_blank">
+                        <img src = { icon_twitter_footer } alt = "Icono de nuestro Twitter" />
+                    </a>
+                    <a href = "https://co.pinterest.com/KikeanaArt" target="_blank">
+                        <img src = { icon_pinterest_footer } alt = "Icono de nuestro Pinterest" />
+                    </a>
+                    <a href = "https://www.tiktok.com/@KikeanaArt" target="_blank">
+                        <img src = { icon_tiktok_footer } alt = "Icono de nuestro Tiktok" />
+                    </a>
+                    <a href = "https://wa.me/message/UFD4QQZHUERLC1" target="_blank">
+                        <img src = { icon_whatsapp_footer } alt = "Icono de nuestro WhatsApp" />
+                    </a>
+                    <a href = "https://m.me/KikeanaArt" target="_blank">
+                        <img src = { icon_messenger_footer } alt = "Icono de nuestro Messenger" />
+                    </a>
+                </div>
                 <p>Kikeana - Amigurumi - Crochet - Colombia</p>
             </div>
         </footer>
