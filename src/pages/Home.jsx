@@ -206,9 +206,9 @@ const Home = () => {
                         <img src="https://i.pinimg.com/564x/04/41/0f/04410fe61ece3bec2e44958ffaf01828.jpg" alt="" />
                     </div>
                     <div className = "card-body">
-                        <span class = "tag tag-teal">Animalitos</span>
-                        <h4>Unicornio Emma</h4>
-                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                        <span class = "tag tag-pink">Figuras</span>
+                        <h4>Policia</h4>
+                        <p>¡Dios y Patria! , el lema de nuestra Policía Nacional 🚨 👮‍♂️. Un homenaje a aquellos que exaltan y ponen el alto el nombre de la Policía Nacional de Colombia 🇨🇴, aquellos que con esfuerzo y sacrificio cumplen con los códigos y apoyan a la ciudadanía 💪</p>
                     </div>
                 </div>
 
@@ -217,9 +217,9 @@ const Home = () => {
                         <img src="https://i.pinimg.com/564x/c6/5d/b2/c65db27d318fbabc5d1e0ed40d5d41a6.jpg" alt="" />
                     </div>
                     <div className = "card-body">
-                        <span class = "tag tag-teal">Animalitos</span>
-                        <h4>Unicornio Emma</h4>
-                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                        <span class = "tag tag-purple">Series y Peliculas</span>
+                        <h4>Chavo del Ocho</h4>
+                        <p>¡Gracias por acompañarnos!... Y recuerden, la venganza nunca es buena, mata el alma y la envenena. Eso eso eso 😊</p>
                     </div>
                 </div>
 
@@ -229,8 +229,8 @@ const Home = () => {
                     </div>
                     <div className = "card-body">
                         <span class = "tag tag-teal">Animalitos</span>
-                        <h4>Unicornio Emma</h4>
-                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                        <h4>Milu la Pulpita Reversible</h4>
+                        <p>¡Volvimos, esta vez con Milu la Pulpita 🎉 🎊 ! Y debido al boom del Pulpo Reversible 🐙, los pedidos no se hicieron esperar. Úsalos para ayudar a expresar o comunicar tus sentimientos, incluso para jugar con tu pareja 👫♥ Diseño propio.</p>
                     </div>
                 </div>
 
@@ -239,9 +239,9 @@ const Home = () => {
                         <img src="https://i.pinimg.com/564x/11/13/f8/1113f8bc7740b6c3cdae36c6228fe3df.jpg" alt="" />
                     </div>
                     <div className = "card-body">
-                        <span class = "tag tag-teal">Animalitos</span>
-                        <h4>Unicornio Emma</h4>
-                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                        <span class = "tag tag-pink">Figuras</span>
+                        <h4>Diablito</h4>
+                        <p>Que tal un lindo día lleno de aventuras, maldades y locuras junto con este diablito 😈😍? Es la compañía ideal para que te ayude a romper las reglas mientras se divierten y gozan juntos. ❤️🌚</p>
                     </div>
                 </div>
 
@@ -251,8 +251,8 @@ const Home = () => {
                     </div>
                     <div className = "card-body">
                         <span class = "tag tag-teal">Animalitos</span>
-                        <h4>Unicornio Emma</h4>
-                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                        <h4>Dumbo</h4>
+                        <p>¡Damas y Caballeros!, ¡niños y niñas! Con ustedes la máxima atracción de este circo 🤹‍♂️🤡.. Un joven elefante, cuyas orejas de gran tamaño le permiten volar. Con ustedes ¡Dumbo! 🐘</p>
                     </div>
                 </div>
 
@@ -261,9 +261,9 @@ const Home = () => {
                         <img src="https://i.pinimg.com/564x/89/b5/18/89b518fa05df44bee3d9a8191e8fc5c8.jpg" alt="" />
                     </div>
                     <div className = "card-body">
-                        <span class = "tag tag-teal">Animalitos</span>
-                        <h4>Unicornio Emma</h4>
-                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                        <span class = "tag tag-pink">Figuras</span>
+                        <h4>Pesebre</h4>
+                        <p>🎄🎅🎁 ¡Llegó diciembre! ☃️🦌🎀. Nos place compartir con ustedes este hermoso Pesebre que hicimos con mucho cariño y ya fue entregado 😊🎉 🎊 ... Además le hicimos un Stop motion 😲😱🤗💞</p>
                     </div>
                 </div>
 
@@ -273,8 +273,8 @@ const Home = () => {
                     </div>
                     <div className = "card-body">
                         <span class = "tag tag-teal">Animalitos</span>
-                        <h4>Unicornio Emma</h4>
-                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                        <h4>Skye</h4>
+                        <p>Que tal una caminata por el parque junto con esta preciosa perrita🐕❤️?, su nombre es Skye😁. Va a ser una tarde inolvidable en la cual se van a divertir, reír y jugar junt@s🌚! Por cierto es la compañía más fiel! ❣️</p>
                     </div>
                 </div>
 
@@ -284,8 +284,8 @@ const Home = () => {
                     </div>
                     <div className = "card-body">
                         <span class = "tag tag-teal">Animalitos</span>
-                        <h4>Unicornio Emma</h4>
-                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                        <h4>Pingüinito</h4>
+                        <p>Este lindo y tierno pingüinito 🐧 viene desde los mas helados polos 🥶 para hacerte muy feliz con su compañía ☺️ mientras se conocen el uno al otro, se ríen y se divierten juntos! ❤️</p>
                     </div>
                 </div>
             </div>
