@@ -205,20 +205,57 @@ header {
     object-fit: cover;
 }
 
-.main-container {
-    padding: 1rem;
-}
-
-.cards-container {
+.container {
     display: grid;
     grid-template-columns: repeat(auto-fill, 18rem);
-    row-gap: 1rem;
     place-content: center;
 }
 
-.amigurumi-card img {
-    width: 17rem;
+.card {
+    margin: 10px;
     border-radius: 2rem;
+    box-shadow: 0 0.2rem 2rem rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 17rem;
+}
+
+.card-header img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.tag {
+    border-radius: 2rem;
+    font-size: var(--small);
+    color: #fff;
+    padding: 0.2rem 1rem;
+    text-transform: uppercase;
+}
+
+.tag-teal {
+    background-color: #47bcd4;
+}
+
+.tag-purple {
+    background-color: #5e76bf;
+}
+
+.tag-pink {
+    background-color: #cd5b9f;
+}
+
+.card-body h4 {
+    font-size: var(--small);
+    padding: 1rem 0 1rem 0;
+}
+
+.card-body p {
+    font-size: var(--small);
+    margin: 0 0 2rem;
 }
 
 .footer-up {

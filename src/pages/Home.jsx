@@ -155,44 +155,138 @@ const Home = () => {
         </div>
 
         <main>
-            <div className = "main-container">
-                <div className="cards-container">
-                    <div className="amigurumi-card">
-                        <img src="https://i.pinimg.com/564x/9f/d7/60/9fd7604c25f8d044b2d9a1bf55fa0d53.jpg" alt="" />
+
+            <div className="container">
+                <div className = "card">
+                    <div className = "card-header">
+                        <img src = "https://i.pinimg.com/564x/9f/d7/60/9fd7604c25f8d044b2d9a1bf55fa0d53.jpg" alt = "" />
                     </div>
-                    <div className="amigurumi-card">
+                    <div className = "card-body">
+                        <span class = "tag tag-teal">Animalitos</span>
+                        <h4>Unicornio Emma</h4>
+                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                    </div>
+                </div>
+
+                <div className = "card">
+                    <div className = "card-header">
                         <img src="https://i.pinimg.com/564x/98/76/51/987651318c5f0b0532a3cd7e225cc9c6.jpg" alt="" />
                     </div>
-                    <div className="amigurumi-card">
+                    <div className = "card-body">
+                        <span class = "tag tag-purple">Series y Peliculas</span>
+                        <h4>Vanellope Von Schweetz</h4>
+                        <p>El día de hoy les presentamos a Vanellope 👧 de Ralph el demoledor, ella es una niña muy traviesa 🤪, juguetona y tiene un gran sentido del humor 🤣, le gusta mucho jugar y divertirse con sus amigos 🎢❤️</p>
+                    </div>
+                </div>
+
+                <div className = "card">
+                    <div className = "card-header">
                         <img src="https://i.pinimg.com/564x/2c/91/74/2c917477657b163df7e2c8820d662111.jpg" alt="" />
                     </div>
-                    <div className="amigurumi-card">
+                    <div className = "card-body">
+                        <span class = "tag tag-purple">Series y Peliculas</span>
+                        <h4>Mérida</h4>
+                        <p>Mérida y su familia representan lo que es el amor hacia los que queremos👨‍👩‍👧‍👦, la unión, la lucha y el sacrificio💪, pero sobre todo nos hace entender que nuestra familia jamás nos abandonara y nos apoyará en las buenas y en las malas.♥️🥰</p>
+                    </div>
+                </div>
+
+                <div className = "card">
+                    <div className = "card-header">
                         <img src="https://i.pinimg.com/564x/84/d9/b5/84d9b5af95d916752ca64511b84eb874.jpg" alt="" />
                     </div>
-                    <div className="amigurumi-card">
+                    <div className = "card-body">
+                        <span class = "tag tag-purple">Series y Peliculas</span>
+                        <h4>Cruella de Vil</h4>
+                        <p>Desde los mas excéntricos desfiles de moda y glamour les presentamos a Cruella de Vil😍, una hermosa y refinada mujer diseñadora de modas💁🏻‍♀️💫, la cual nos sorprendió con su estupendo talento por la moda, pero sobretodo por la creación de sus magníficos abrigos.🧥❤️</p>
+                    </div>
+                </div>
+
+                <div className = "card">
+                    <div className = "card-header">
                         <img src="https://i.pinimg.com/564x/04/41/0f/04410fe61ece3bec2e44958ffaf01828.jpg" alt="" />
                     </div>
-                    <div className="amigurumi-card">
+                    <div className = "card-body">
+                        <span class = "tag tag-teal">Animalitos</span>
+                        <h4>Unicornio Emma</h4>
+                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                    </div>
+                </div>
+
+                <div className = "card">
+                    <div className = "card-header">
                         <img src="https://i.pinimg.com/564x/c6/5d/b2/c65db27d318fbabc5d1e0ed40d5d41a6.jpg" alt="" />
                     </div>
-                    <div className="amigurumi-card">
+                    <div className = "card-body">
+                        <span class = "tag tag-teal">Animalitos</span>
+                        <h4>Unicornio Emma</h4>
+                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                    </div>
+                </div>
+
+                <div className = "card">
+                    <div className = "card-header">
                         <img src="https://i.pinimg.com/564x/1b/86/66/1b866646917a0ec9f0e5ccc10a984b6f.jpg" alt="" />
-                    </div>  
-                    <div className="amigurumi-card">
+                    </div>
+                    <div className = "card-body">
+                        <span class = "tag tag-teal">Animalitos</span>
+                        <h4>Unicornio Emma</h4>
+                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                    </div>
+                </div>
+
+                <div className = "card">
+                    <div className = "card-header">
                         <img src="https://i.pinimg.com/564x/11/13/f8/1113f8bc7740b6c3cdae36c6228fe3df.jpg" alt="" />
-                    </div> 
-                    <div className="amigurumi-card">
+                    </div>
+                    <div className = "card-body">
+                        <span class = "tag tag-teal">Animalitos</span>
+                        <h4>Unicornio Emma</h4>
+                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                    </div>
+                </div>
+
+                <div className = "card">
+                    <div className = "card-header">
                         <img src="https://i.pinimg.com/564x/93/10/72/9310721b5f1983a2b4a8e74151316c62.jpg" alt="" />
-                    </div>    
-                    <div className="amigurumi-card">
+                    </div>
+                    <div className = "card-body">
+                        <span class = "tag tag-teal">Animalitos</span>
+                        <h4>Unicornio Emma</h4>
+                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                    </div>
+                </div>
+
+                <div className = "card">
+                    <div className = "card-header">
                         <img src="https://i.pinimg.com/564x/89/b5/18/89b518fa05df44bee3d9a8191e8fc5c8.jpg" alt="" />
-                    </div>   
-                    <div className="amigurumi-card">
+                    </div>
+                    <div className = "card-body">
+                        <span class = "tag tag-teal">Animalitos</span>
+                        <h4>Unicornio Emma</h4>
+                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                    </div>
+                </div>
+
+                <div className = "card">
+                    <div className = "card-header">
                         <img src="https://i.pinimg.com/564x/03/03/26/0303261b46885253dad8febaa22cc7ae.jpg" alt="" />
-                    </div>   
-                    <div className="amigurumi-card">
+                    </div>
+                    <div className = "card-body">
+                        <span class = "tag tag-teal">Animalitos</span>
+                        <h4>Unicornio Emma</h4>
+                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                    </div>
+                </div>
+
+                <div className = "card">
+                    <div className = "card-header">
                         <img src="https://i.pinimg.com/564x/75/ae/be/75aebe998237f2c1e2cd808955e62519.jpg" alt="" />
-                    </div>                  
+                    </div>
+                    <div className = "card-body">
+                        <span class = "tag tag-teal">Animalitos</span>
+                        <h4>Unicornio Emma</h4>
+                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                    </div>
                 </div>
             </div>
         </main>
