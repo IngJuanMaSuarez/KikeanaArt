@@ -175,12 +175,26 @@ const Home = () => {
                     <div className="amigurumi-card">
                         <img src="https://i.pinimg.com/564x/c6/5d/b2/c65db27d318fbabc5d1e0ed40d5d41a6.jpg" alt="" />
                     </div>
+                    <div className="amigurumi-card">
+                        <img src="https://i.pinimg.com/564x/1b/86/66/1b866646917a0ec9f0e5ccc10a984b6f.jpg" alt="" />
+                    </div>  
+                    <div className="amigurumi-card">
+                        <img src="https://i.pinimg.com/564x/11/13/f8/1113f8bc7740b6c3cdae36c6228fe3df.jpg" alt="" />
+                    </div> 
+                    <div className="amigurumi-card">
+                        <img src="https://i.pinimg.com/564x/93/10/72/9310721b5f1983a2b4a8e74151316c62.jpg" alt="" />
+                    </div>    
+                    <div className="amigurumi-card">
+                        <img src="https://i.pinimg.com/564x/89/b5/18/89b518fa05df44bee3d9a8191e8fc5c8.jpg" alt="" />
+                    </div>   
+                    <div className="amigurumi-card">
+                        <img src="https://i.pinimg.com/564x/03/03/26/0303261b46885253dad8febaa22cc7ae.jpg" alt="" />
+                    </div>   
+                    <div className="amigurumi-card">
+                        <img src="https://i.pinimg.com/564x/75/ae/be/75aebe998237f2c1e2cd808955e62519.jpg" alt="" />
+                    </div>                  
                 </div>
             </div>
-            <aside>
-                <div className = "social-media">Redes Sociales</div>
-                <div className = "aux">Auxiliar</div>
-            </aside>
         </main>
 
         <footer>
