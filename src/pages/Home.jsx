@@ -155,7 +155,7 @@ const Home = () => {
         </div>
 
         <main>
-
+            
             <div className="container">
                 <div className = "card">
                     <div className = "card-header">
@@ -164,7 +164,7 @@ const Home = () => {
                     <div className = "card-body">
                         <span class = "tag tag-teal">Animalitos</span>
                         <h4>Unicornio Emma</h4>
-                        <p>El día de hoy llega una nueva integrante a la familia de Unicornios de Kikeana 🦄❤️, su nombre es EMMA 🥺, le encanta jugar y divertirse con todos sus amigos 😝, ella es muy cariñosa y amorosa. 🤗💞</p>
+                        <p>Una nueva integrante a la familia de Unicornios de Kikeana 🦄, su nombre es EMMA, ella es muy cariñosa y amorosa 🤗💞</p>
                     </div>
                 </div>
 
@@ -175,7 +175,7 @@ const Home = () => {
                     <div className = "card-body">
                         <span class = "tag tag-purple">Series y Peliculas</span>
                         <h4>Vanellope Von Schweetz</h4>
-                        <p>El día de hoy les presentamos a Vanellope 👧 de Ralph el demoledor, ella es una niña muy traviesa 🤪, juguetona y tiene un gran sentido del humor 🤣, le gusta mucho jugar y divertirse con sus amigos 🎢❤️</p>
+                        <p>Vanellope de Ralph el demoledor, ella es una niña muy traviesa 🤪, juguetona y tiene un gran sentido del humor</p>
                     </div>
                 </div>
 
@@ -186,7 +186,7 @@ const Home = () => {
                     <div className = "card-body">
                         <span class = "tag tag-purple">Series y Peliculas</span>
                         <h4>Mérida</h4>
-                        <p>Mérida y su familia representan lo que es el amor hacia los que queremos👨‍👩‍👧‍👦, la unión, la lucha y el sacrificio💪, pero sobre todo nos hace entender que nuestra familia jamás nos abandonara y nos apoyará en las buenas y en las malas.♥️🥰</p>
+                        <p>Mérida y su familia representan lo que es el amor hacia los que queremos👨‍👩‍👧‍👦, la unión, la lucha y el sacrificio💪</p>
                     </div>
                 </div>
 
@@ -197,7 +197,7 @@ const Home = () => {
                     <div className = "card-body">
                         <span class = "tag tag-purple">Series y Peliculas</span>
                         <h4>Cruella de Vil</h4>
-                        <p>Desde los mas excéntricos desfiles de moda y glamour les presentamos a Cruella de Vil😍, una hermosa y refinada mujer diseñadora de modas💁🏻‍♀️💫, la cual nos sorprendió con su estupendo talento por la moda, pero sobretodo por la creación de sus magníficos abrigos.🧥❤️</p>
+                        <p>Desde los mas excéntricos desfiles de moda y glamour les presentamos a Cruella de Vil, una hermosa y refinada mujer diseñadora de modas💁🏻‍♀️💫</p>
                     </div>
                 </div>
 
@@ -208,7 +208,7 @@ const Home = () => {
                     <div className = "card-body">
                         <span class = "tag tag-pink">Figuras</span>
                         <h4>Policia</h4>
-                        <p>¡Dios y Patria! , el lema de nuestra Policía Nacional 🚨 👮‍♂️. Un homenaje a aquellos que exaltan y ponen el alto el nombre de la Policía Nacional de Colombia 🇨🇴, aquellos que con esfuerzo y sacrificio cumplen con los códigos y apoyan a la ciudadanía 💪</p>
+                        <p>¡Dios y Patria! , el lema de nuestra Policía Nacional 🚨👮‍♂️. Un homenaje a aquellos que cumplen con los códigos y apoyan a la ciudadanía 💪</p>
                     </div>
                 </div>
 
@@ -219,7 +219,7 @@ const Home = () => {
                     <div className = "card-body">
                         <span class = "tag tag-purple">Series y Peliculas</span>
                         <h4>Chavo del Ocho</h4>
-                        <p>¡Gracias por acompañarnos!... Y recuerden, la venganza nunca es buena, mata el alma y la envenena. Eso eso eso 😊</p>
+                        <p>Y recuerden, la venganza nunca es buena, mata el alma y la envenena. Eso eso eso 😊</p>
                     </div>
                 </div>
 
@@ -230,7 +230,7 @@ const Home = () => {
                     <div className = "card-body">
                         <span class = "tag tag-teal">Animalitos</span>
                         <h4>Milu la Pulpita Reversible</h4>
-                        <p>¡Volvimos, esta vez con Milu la Pulpita 🎉 🎊 ! Y debido al boom del Pulpo Reversible 🐙, los pedidos no se hicieron esperar. Úsalos para ayudar a expresar o comunicar tus sentimientos, incluso para jugar con tu pareja 👫♥ Diseño propio.</p>
+                        <p>Pulpos Reversibles! Úsalos para ayudar a expresar o comunicar tus sentimientos, incluso para jugar con tu pareja 👫</p>
                     </div>
                 </div>
 
@@ -241,7 +241,7 @@ const Home = () => {
                     <div className = "card-body">
                         <span class = "tag tag-pink">Figuras</span>
                         <h4>Diablito</h4>
-                        <p>Que tal un lindo día lleno de aventuras, maldades y locuras junto con este diablito 😈😍? Es la compañía ideal para que te ayude a romper las reglas mientras se divierten y gozan juntos. ❤️🌚</p>
+                        <p>Que tal un lindo día lleno de aventuras, maldades y locuras junto con este diablito 😈😍?</p>
                     </div>
                 </div>
 
@@ -252,7 +252,7 @@ const Home = () => {
                     <div className = "card-body">
                         <span class = "tag tag-teal">Animalitos</span>
                         <h4>Dumbo</h4>
-                        <p>¡Damas y Caballeros!, ¡niños y niñas! Con ustedes la máxima atracción de este circo 🤹‍♂️🤡.. Un joven elefante, cuyas orejas de gran tamaño le permiten volar. Con ustedes ¡Dumbo! 🐘</p>
+                        <p>Con ustedes la máxima atracción de este circo 🤹‍♂️🤡. Un joven elefante, cuyas orejas de gran tamaño le permiten volar 🐘</p>
                     </div>
                 </div>
 
@@ -263,7 +263,7 @@ const Home = () => {
                     <div className = "card-body">
                         <span class = "tag tag-pink">Figuras</span>
                         <h4>Pesebre</h4>
-                        <p>🎄🎅🎁 ¡Llegó diciembre! ☃️🦌🎀. Nos place compartir con ustedes este hermoso Pesebre que hicimos con mucho cariño y ya fue entregado 😊🎉 🎊 ... Además le hicimos un Stop motion 😲😱🤗💞</p>
+                        <p>🎄🎅🎁 ¡Llegó diciembre! ☃️🦌🎀. Nos place compartir con ustedes este hermoso Pesebre que hicimos con mucho cariño</p>
                     </div>
                 </div>
 
@@ -274,7 +274,7 @@ const Home = () => {
                     <div className = "card-body">
                         <span class = "tag tag-teal">Animalitos</span>
                         <h4>Skye</h4>
-                        <p>Que tal una caminata por el parque junto con esta preciosa perrita🐕❤️?, su nombre es Skye😁. Va a ser una tarde inolvidable en la cual se van a divertir, reír y jugar junt@s🌚! Por cierto es la compañía más fiel! ❣️</p>
+                        <p>Que tal una caminata por el parque junto con esta preciosa perrita🐕❤️?, su nombre es Skye😁 !Por cierto es la compañía más fiel!</p>
                     </div>
                 </div>
 
@@ -285,7 +285,7 @@ const Home = () => {
                     <div className = "card-body">
                         <span class = "tag tag-teal">Animalitos</span>
                         <h4>Pingüinito</h4>
-                        <p>Este lindo y tierno pingüinito 🐧 viene desde los mas helados polos 🥶 para hacerte muy feliz con su compañía ☺️ mientras se conocen el uno al otro, se ríen y se divierten juntos! ❤️</p>
+                        <p>Este lindo y tierno pingüinito 🐧 viene desde los mas helados polos 🥶 para hacerte muy feliz con su compañía</p>
                     </div>
                 </div>
             </div>
