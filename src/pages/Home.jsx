@@ -1,4 +1,5 @@
 import React from 'react';
+import { Slideshow } from '../components/Slideshow';
 
 import logo600 from '../assets/images/600pxTranspKikeana15Oct20.png';
 import logo800 from '../assets/images/800pxTranspKikeana15Oct20.png';
@@ -147,11 +148,12 @@ const Home = () => {
         </nav>
 
         <div className = "banner">
-            <picture>
+            <Slideshow />
+            {/* <picture>
                 <source media = "(min-width:800px)" srcset = { banner1_1200 } />
                 <source media = "(min-width:600px)" srcset = { banner1_800 } />
                 <img src = { banner1_600 } alt="Imagen 1 del Banner, Tejiendo Amigurumis"/>
-            </picture>
+            </picture> */}
         </div>
 
         <main>
