@@ -4,9 +4,6 @@ import { Slideshow } from '../components/Slideshow';
 import logo600 from '../assets/images/600pxTranspKikeana15Oct20.png';
 import logo800 from '../assets/images/800pxTranspKikeana15Oct20.png';
 import logo1200 from '../assets/images/1200pxTranspKikeana15Oct20.png';
-import banner1_600 from '../assets/images/Banner1Small600.jpg';
-import banner1_800 from '../assets/images/Banner1Medium800.jpg';
-import banner1_1200 from '../assets/images/Banner1Large1200.jpg';
 
 import icon_menu from '../assets/icons/icon_menu.svg';
 import icon_instagram from '../assets/icons/icon_instagram.svg';
@@ -149,11 +146,6 @@ const Home = () => {
 
         <div className = "banner">
             <Slideshow />
-            {/* <picture>
-                <source media = "(min-width:800px)" srcset = { banner1_1200 } />
-                <source media = "(min-width:600px)" srcset = { banner1_800 } />
-                <img src = { banner1_600 } alt="Imagen 1 del Banner, Tejiendo Amigurumis"/>
-            </picture> */}
         </div>
 
         <main>

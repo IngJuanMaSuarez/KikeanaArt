@@ -41,7 +41,7 @@
         height: 35rem;
     }
     
-    .banner img {
+    .each-slide > div {
         height: 35rem;
     }
 }
