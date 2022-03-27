@@ -4,9 +4,9 @@ import { Slide } from 'react-slideshow-image';
 const Slideshow = () => {
 
     const slideImages = [
-        'https://i.pinimg.com/564x/e2/9d/5d/e29d5d63657d6888a83d031c2da9bd8d.jpg',
-        'https://i.pinimg.com/564x/8c/c4/f6/8cc4f686610b862990a0f0ccadef853b.jpg',
-        'https://i.pinimg.com/564x/a8/44/6e/a8446ea60022a63e52d5723dfd3cdda4.jpg'
+        'https://i.pinimg.com/originals/e2/9d/5d/e29d5d63657d6888a83d031c2da9bd8d.jpg',
+        'https://i.pinimg.com/originals/3b/74/9b/3b749b5e56131799d7ce00e5e64c732b.jpg',
+        'https://i.pinimg.com/originals/99/7b/0e/997b0ebff5776436e04c9a0c5e9291b0.jpg'
     ];
 
     const properties = {
@@ -14,22 +14,21 @@ const Slideshow = () => {
       };
 
     return (
-        <div>
-            <Slide easing="ease" {...properties}>
-                <div className="each-slide">
-                    <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-                    </div>
+
+        <div className = "banner">
+            <Slide easing = "ease" {...properties}>
+                <div className = "each-slide">
+                    <div style = {{'backgroundImage': `url(${slideImages[0]})`}}></div>
                 </div>
-            <div className="each-slide">
-                <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
+                <div className = "each-slide">
+                    <div style = {{'backgroundImage': `url(${slideImages[1]})`}}></div>
                 </div>
-            </div>
-            <div className="each-slide">
-                <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
+                <div className = "each-slide">
+                    <div style = {{'backgroundImage': `url(${slideImages[2]})`}}></div>
                 </div>
-            </div>
-        </Slide>
-    </div>
+            </Slide>
+        </div>
+    
     )
 }
 
