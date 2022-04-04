@@ -10,7 +10,7 @@ const Slideshow = () => {
     ];
 
     const properties = {
-        duration: 3000,
+        duration: 2000,
       };
 
     return (

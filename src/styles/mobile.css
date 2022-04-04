@@ -196,6 +196,10 @@ header {
     margin-top: 10rem;
 }
 
+.banner img {
+    width: 100%;
+}
+
 .each-slide > div {
     background-size: cover;
     height: 28rem;

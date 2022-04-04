@@ -12,7 +12,7 @@ const NavBar = () => {
     <nav className = "navbar">
         <ul>
             <li>
-                <a href = "">
+                <a href = "/">
                     <img src = { icon_home } alt = "Icono para ir al inicio" />Inicio
                 </a>
             </li>
@@ -32,7 +32,7 @@ const NavBar = () => {
                 </a>
             </li>
             <li>
-                <a href = "">
+                <a href = "AboutUs">
                     <img src = { icon_about_us } alt = "Icono para ir a la sección sobre nosotros" />Sobre Nosotros
                 </a>
             </li>

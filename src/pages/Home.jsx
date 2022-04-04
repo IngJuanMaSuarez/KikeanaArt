@@ -13,7 +13,7 @@ const Home = () => {
 
         <main>
             
-            <div className="container">
+            <div className = "container">
                 <div className = "card">
                     <div className = "card-header">
                         <img src = "https://i.pinimg.com/564x/9f/d7/60/9fd7604c25f8d044b2d9a1bf55fa0d53.jpg" alt = "" />

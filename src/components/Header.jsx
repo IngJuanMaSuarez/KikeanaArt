@@ -35,7 +35,7 @@ const Header = () => {
             <nav className = 'navbar-mobile'>
                 <ul>
                     <li>
-                        <a href = "">
+                        <a href = "/">
                             <img src = { icon_home } alt = "Icono para ir al inicio" />Inicio
                         </a>
                     </li>
@@ -55,18 +55,20 @@ const Header = () => {
                         </a>
                     </li>
                     <li>
-                        <a href = "">
+                        <a href = "AboutUs">
                             <img src = { icon_about_us } alt = "Icono para ir a la sección sobre nosotros" />Sobre Nosotros
                         </a>
                     </li>
                 </ul>
             </nav>
             
-            <picture className = "logo">
-                <source media = "(min-width:800px)" srcset = { logo1200 } />
-                <source media = "(min-width:600px)" srcset = { logo800 } />
-                <img src = { logo600 } />
-            </picture>
+            <a href="/">
+                <picture className = "logo">
+                    <source media = "(min-width:800px)" srcset = { logo1200 } />
+                    <source media = "(min-width:600px)" srcset = { logo800 } />
+                    <img src = { logo600 } />
+                </picture>
+            </a>
 
             <section className = "main-input">
                 <div className = "main-search-container">
