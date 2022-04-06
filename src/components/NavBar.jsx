@@ -17,17 +17,17 @@ const NavBar = () => {
                 </a>
             </li>
             <li>
-                <a href = "">
+                <a href = "News">
                     <img src = { icon_news } alt = "Icono para ir a la sección de las noticias" />Noticias Crocheteras
                 </a>
             </li>
             <li>
-                <a href = "">
+                <a href = "Amigurumis">
                     <img src = { icon_amigurumis } alt = "Icono para ir a la sección de nuestros amigurumis" />Nuestros Amigurumis
                 </a>
             </li>
             <li>
-                <a href = "">
+                <a href = "FreePattern">
                     <img src = { icon_pattern } alt = "Icono para ir a la sección de patrones gratis" />Patrones Gratis
                 </a>
             </li>

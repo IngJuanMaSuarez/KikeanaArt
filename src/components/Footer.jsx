@@ -59,6 +59,7 @@ const Footer = () => {
                 </a>
             </div>
             <p>Kikeana - Amigurumi - Crochet - Colombia</p>
+            <p>Página hecha por @IngJuanMaSuarez</p>
         </div>
         
     </footer>

@@ -198,6 +198,8 @@ header {
 
 .banner img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .each-slide > div {
@@ -291,18 +293,17 @@ header {
 
 .footer-down {
     background-color: #22272d;
-    height: 10rem;
+    height: 15rem;
     border-top: 3.5rem solid var(--paleta2-verde-oscuro);
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
+    align-content: center;
 }
 
 .footer-down .social-media-footer-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 .footer-down .social-media-footer-container a {
@@ -319,4 +320,5 @@ header {
 .footer-down p {
     color: white;
     font-size: var(--small);
+    margin: 0 auto;
 }
